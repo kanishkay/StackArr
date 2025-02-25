@@ -58,9 +58,11 @@ public:
 
 private:
 
-	T* data;
+	T* data;// an array of items
     int top;
 };
+
+
 
 #include "Stack.cpp"
 

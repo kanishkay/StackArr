@@ -38,6 +38,12 @@ int main() {
     inFile >> command;
 
 
+    try {
+        stack.Push(5);      // Can throw an instance of full stack
+    }
+    catch (FullStack error){
+
+    }
     numCommands = 0;
     while (command != "Quit") {
         try {
